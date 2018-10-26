@@ -5,6 +5,22 @@
 
 [Demo Document](http://myyasuda.github.io/sphinx_materialdesign_theme)
 
+## How to build
+
+first install the following package (assume on ubuntu):
+
+```
+wget -qO- https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install npm-run-all node-sass parcel
+```
+
+then build through
+
+```
+npm run build
+```
+
 ## Requirements
 
 - python
