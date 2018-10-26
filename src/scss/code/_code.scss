@@ -8,10 +8,10 @@
             overflow-y: hidden;
         }
     }
-    
+
     .code, code:not(.download) {
         margin: 0 4px;
-        padding: 0 4px;
+        padding: 3px 6px;
         background: $code_background;
         font-family: $code_font_family;
         border-radius: 2px;
@@ -19,9 +19,9 @@
             font-family: $code_font_family;
         }
     }
-    
+
     pre {
-        background: rgba(0, 0, 0, 0.05);
+        background: #eee;
         color: #455A64;
         padding: 16px 32px;
         width: auto;
