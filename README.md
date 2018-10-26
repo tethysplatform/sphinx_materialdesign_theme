@@ -5,6 +5,22 @@
 
 [Demo Document](http://myyasuda.github.io/sphinx_materialdesign_theme)
 
+
+========================== updates from Mu start ========================
+
+
+## How to use
+
+create a submodule of this repo on the same folder with `conf.py` for your sphinx project. then modify the following three lines in `conf.py`:
+
+```python
+exclude_patterns = ['sphinx_materialdesign_theme']
+html_theme_path = ['sphinx_materialdesign_theme']
+html_theme = 'sphinx_materialdesign_theme'
+```
+
+Note: don't run `pip install sphinx_materialdesign_theme`, it will make you use the upstream version. 
+
 ## How to build
 
 first install the following package (assume on ubuntu):
@@ -21,6 +37,8 @@ then build through
 npm run build
 ```
 
+
+========================== updates from Mu end ========================
 ## Requirements
 
 - python
