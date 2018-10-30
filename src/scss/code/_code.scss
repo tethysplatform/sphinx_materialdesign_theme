@@ -10,7 +10,7 @@
     }
 
     .code, code:not(.download) {
-        margin: 0 4px;
+        margin: 0 0;
         padding: 3px 6px;
         background: $code_background;
         font-family: $code_font_family;
@@ -25,7 +25,7 @@
         font-size: 80%;
     }
 
-    .method > dt, .function > dt, .class > dt {
+    .rubric, .method > dt, .function > dt, .class > dt {
         display: table;
         margin: 10px 0;
         font-size: 100%;
