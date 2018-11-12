@@ -9,4 +9,4 @@ def get_path():
     return package_dir
 
 def setup(app):
-    app.add_html_theme('sphinx_materialdesign_theme', package_dir)
+    app.add_html_theme('mxtheme', package_dir)
