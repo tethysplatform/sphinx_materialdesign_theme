@@ -1,10 +1,6 @@
 /*
  * Header Styles
  */
- div.mdl-layout__header-row a.mdl-navigation__link > i.material-icons.navigation-link-icon {
-    position: relative;
-    top: -2px;
-}
 
 nav.breadcrumb {
     > a.mdl-navigation__link {
@@ -27,9 +23,20 @@ nav.breadcrumb {
     }
 }
 
+div.mdl-layout__header-row a.mdl-navigation__link  {
+    font-size: 1rem;
+    i {
+        font-size: 1.2rem;
+        margin: 0 8px;
+        position: relative;
+        bottom: -0.1rem;
+    }
+}
+
 div.mdl-layout__header-row.header-links {
     background: rgba(255,255,255,0.2);
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
+
 }
