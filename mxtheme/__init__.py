@@ -1,6 +1,7 @@
 from os import path
+from .card import CardDirective
 
-__version__ = '0.1.11'
+__version__ = '0.2'
 __version_full__ = __version__
 
 package_dir = path.dirname(path.abspath(__file__))
