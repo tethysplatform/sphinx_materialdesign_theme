@@ -1,15 +1,14 @@
 from setuptools import setup
-from sphinx_materialdesign_theme import __version__
+from mxtheme import __version__
 
 setup(
-    name = 'sphinx_materialdesign_theme',
+    name = 'mxtheme',
     version = __version__,
-    author = 'Masahiko Yasuda',
-    author_email= 'myasuda@uchida.co.jp',
-    url="https://github.com/myyasuda/sphinx_materialdesign_theme",
-    docs_url="http://myyasuda.github.io/sphinx_materialdesign_theme/",
-    description='Sphinx Material Design Theme',
-    packages = ['sphinx_materialdesign_theme'],
+    author = 'Mu Li',
+    author_email= 'mli@amazon.com',
+    url="https://github.com/mli/mx-theme",
+    description='MXNet Website Theme, adapted from Sphinx Material Design Theme',
+    packages = ['mxtheme'],
     include_package_data=True,
     license= 'MIT License',
     classifiers=[
@@ -25,8 +24,8 @@ setup(
     ],
     entry_points = {
         'sphinx.html_themes': [
-            'sphinx_materialdesign_theme = sphinx_materialdesign_theme',
+            'mxtheme = mxtheme',
         ]
-    }
+    },
 )
 

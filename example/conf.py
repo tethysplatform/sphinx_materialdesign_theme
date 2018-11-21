@@ -6,7 +6,7 @@ pardir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print(pardir)
 sys.path.append(pardir)
 
-from sphinx_materialdesign_theme  import __version__
+from mxtheme  import __version__
 
 source_suffix = '.rst'
 master_doc = 'index'
@@ -28,7 +28,7 @@ html_sidebars = {
 html_favicon = '_static/favicon.ico'
 html_logo = '_static/logo.png'
 
-html_theme = 'sphinx_materialdesign_theme'
+html_theme = 'mxtheme'
 html_theme_path = ['../']
 
 html_theme_options = {
@@ -48,7 +48,7 @@ html_theme_options = {
        ('Home', 'index', False, 'home'),
        ("ExternalLink", "http://example.com", True, 'launch'),
        ("NoIconLink", "http://example.com", True, ''),
-       ("GitHub", "https://github.com/myyasuda/sphinx_materialdesign_theme", True, 'link')
+       ("GitHub", "https://github.com/mli/mx-theme", True, 'link')
     ],
 
     # Customize css colors.

@@ -1,9 +1,9 @@
 # Material Design HTML Theme for Sphinx
 
-[![PyPI version](https://badge.fury.io/py/sphinx_materialdesign_theme.svg)](https://badge.fury.io/py/sphinx_materialdesign_theme)
-[![CircleCI](https://circleci.com/gh/myyasuda/sphinx_materialdesign_theme.svg?style=svg)](https://circleci.com/gh/myyasuda/sphinx_materialdesign_theme)
+[![PyPI version](https://badge.fury.io/py/mxtheme.svg)](https://badge.fury.io/py/mxtheme)
+> [![CircleCI](https://circleci.com/gh/myyasuda/sphinx_materialdesign_theme.svg?style=svg)](https://circleci.com/gh/myyasuda/sphinx_materialdesign_theme)
 
-[Demo Document](http://myyasuda.github.io/sphinx_materialdesign_theme)
+> [Demo Document](http://myyasuda.github.io/sphinx_materialdesign_theme)
 
 
 ========================== updates from Mu start ========================
@@ -14,12 +14,10 @@
 create a submodule of this repo on the same folder with `conf.py` for your sphinx project. then modify the following three lines in `conf.py`:
 
 ```python
-exclude_patterns = ['sphinx_materialdesign_theme']
-html_theme_path = ['sphinx_materialdesign_theme']
-html_theme = 'sphinx_materialdesign_theme'
+exclude_patterns = ['mxtheme']
+html_theme_path = ['mxtheme']
+html_theme = 'mxtheme'
 ```
-
-Note: don't run `pip install sphinx_materialdesign_theme`, it will make you use the upstream version. 
 
 ## How to build
 
