@@ -1,22 +1,33 @@
 # Material Design HTML Theme for Sphinx
 
-[![PyPI version](https://badge.fury.io/py/mxtheme.svg)](https://badge.fury.io/py/mxtheme)
-> [![CircleCI](https://circleci.com/gh/myyasuda/sphinx_materialdesign_theme.svg?style=svg)](https://circleci.com/gh/myyasuda/sphinx_materialdesign_theme)
-
-> [Demo Document](http://myyasuda.github.io/sphinx_materialdesign_theme)
-
-
 ========================== updates from Mu start ========================
 
 
 ## How to use
 
+- Install the theme by
+
+```bash
+pip install https://github.com/mli/mx-theme/tarball/master
+```
+
+- Modify the `conf.py` for your sphinx project by
+
 create a submodule of this repo on the same folder with `conf.py` for your sphinx project. then modify the following three lines in `conf.py`:
 
 ```python
-exclude_patterns = ['mxtheme']
+
 html_theme_path = ['mxtheme']
 html_theme = 'mxtheme'
+```
+
+and add the following two lines into your `def setup(app)` function:
+
+```python
+def setup(app):
+    ... 
+    import mxtheme
+    app.add_directive('card', mxtheme.CardDirective)
 ```
 
 ## How to build
