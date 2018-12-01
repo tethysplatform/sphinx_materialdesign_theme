@@ -1,7 +1,9 @@
 {%- if display_github %}
 <a id="button-show-github"
     href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode|default("blob") }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ page_source_suffix }}" class="mdl-button mdl-js-button mdl-button--icon">
-<i class="material-icons">edit</i>
+  <span style="font-size: .9rem;">
+    <i class="fab fa-github"></i>
+  </span>
 </a>
 <div class="mdl-tooltip" data-mdl-for="button-show-github">
 {{ _('Edit on Github') }}
@@ -10,7 +12,9 @@
 <a id="button-show-source"
     class="mdl-button mdl-js-button mdl-button--icon"
     href="{{ pathto('_sources/' + sourcename, true)|e }}" rel="nofollow">
-<i class="material-icons">code</i>
+  <span style="font-size: .9rem;">
+    <i class="fas fa-download"></i>
+  </span>
 </a>
 <div class="mdl-tooltip" data-mdl-for="button-show-source">
 {{ _('Show Source') }}

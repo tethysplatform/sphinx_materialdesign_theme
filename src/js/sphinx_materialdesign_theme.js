@@ -39,7 +39,7 @@ $(function() {
                 $li.append(
                     $linkWrapper.append(
                         $toggleWrapper.append(
-                            $(`<a class="mdl-button mdl-js-button mdl-button--icon" data-toggle="#${ulId}"><i class="material-icons">keyboard_arrow_down</i></span>`)
+                            $(`<a class="mdl-button mdl-js-button mdl-button--icon" data-toggle="#${ulId}"><span style="color: #888"><i class="fas fa-angle-down fa-xs"></i></span></span>`)
                         )
                     )
                 ).append($ul);
