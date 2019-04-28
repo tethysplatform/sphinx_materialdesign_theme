@@ -9,6 +9,18 @@
         }
     }
 
+    // for jupyter notebook output cell
+    .output {
+        .highlight {
+            pre {
+                background: $background_color;
+                border-width: 1px;
+                border-color: #999;
+                border-style: solid;
+            }
+        }
+     }
+
     .code, code:not(.download) {
         margin: 0 0;
         padding: 3px 6px;

@@ -42,10 +42,18 @@ a.download > code.download {
     margin-right: auto;
  }
 
-.figure p.caption {
-    text-align: center;
-    margin-top: .75rem;
+div.figure {
+    p.caption {
+        text-align: center;
+        margin-top: .75rem;
 
+        span.caption-number {
+            font-style: normal;
+        }
+        .caption-number::after {
+            content: "\00a0";
+        }
+    }
 }
 
 

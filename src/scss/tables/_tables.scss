@@ -12,9 +12,18 @@
             white-space: normal;
             overflow-wrap: break-word;
         }
-    }
 
-    table caption {
-    font-size: 16px;
+        caption {
+            font-size: $font_size;
+            margin: 1rem 0 0.8rem 0;
+            white-space: normal;
+            .caption-number {
+                font-style: normal;
+            }
+            .caption-number::after {
+                content: "\00a0";
+            }
+        }
+
     }
 }

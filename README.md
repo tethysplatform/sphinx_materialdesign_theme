@@ -47,7 +47,6 @@ Then install packages
 
 ```
 npm install
-# npm install npm-run-all node-sass parcel
 ```
 
 Last, build css and js
