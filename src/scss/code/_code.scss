@@ -1,6 +1,8 @@
 .page-content {
     .highlight {
+        margin: 1px 0;
         pre {
+            background: $code_background;
             color: rgba(0,0,0,.87);
             font-family: $code_font_family;
             padding: 0.75rem;
@@ -28,8 +30,6 @@
 
     .code, code:not(.download) {
         margin: 0 0;
-        padding: 3px 6px;
-        background: $code_background;
         font-family: $code_font_family;
         border-radius: 2px;
         span.pre {
