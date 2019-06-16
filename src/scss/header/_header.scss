@@ -41,13 +41,12 @@ div.mdl-layout__header-row.header-links {
     };
 
     a.mdl-navigation__link:hover  {
-        background-color: #008cd480;
+        background-color: unquote("rgb(#{$color-primary})");
         color: #eeeeee;
     };
     a.mdl-navigation__link[href="#"]  {
-        background-color: #008cd480;
+        background-color: unquote("rgb(#{$color-primary})");
         opacity: 1;
         color: #ffffff;
-        border-bottom-color: #ffffff;
     };
 }
