@@ -38,5 +38,16 @@ div.mdl-layout__header-row.header-links {
             position: relative;
             bottom: -0.1rem;
         }
-    }
+    };
+
+    a.mdl-navigation__link:hover  {
+        background-color: #008cd480;
+        color: #eeeeee;
+    };
+    a.mdl-navigation__link[href="#"]  {
+        background-color: #008cd480;
+        opacity: 1;
+        color: #ffffff;
+        border-bottom-color: #ffffff;
+    };
 }
