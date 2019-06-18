@@ -14,6 +14,10 @@
         }
     }
 
+    div.highlight-console div.highlight {
+        background: none;
+    }
+
     // for jupyter notebook output cell
     .output {
         .highlight {

@@ -6,6 +6,7 @@
         margin: 1.5rem 0;
         table-layout: fixed;
         max-width: 100%;
+        min-width: 70%;
 
         th, td {
             @extend .mdl-data-table__cell--non-numeric;

@@ -8,3 +8,6 @@ build/
 example/_build/
 node_modules/
 *.log
+**/*.pyc
+**/__pycache__
+.sass-cache/

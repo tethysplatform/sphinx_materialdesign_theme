@@ -1,7 +1,7 @@
 {
   "name": "mxtheme",
-  "version": "0.1.11",
-  "description": "[![Build Status](https://travis-ci.org/myyasuda/sphinx_materialdesign_theme.svg?branch=master)](https://travis-ci.org/myyasuda/sphinx_materialdesign_theme)",
+  "version": "0.3.9",
+  "description": "",
   "main": "index.js",
   "directories": {
     "example": "example"
