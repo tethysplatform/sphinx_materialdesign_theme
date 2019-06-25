@@ -66,6 +66,12 @@
         }
     }
 
+
+    .rubric {
+        margin: 30px 0 10px 0;
+     }
+
+
     .field-body {
         padding-left: 40px;
         ul {
@@ -74,17 +80,25 @@
         }
     }
 
-    .docutils > dt {
-        padding: 6px;
-        display: table;
-        margin-bottom: 6px;
-        border: none;
-        border-left: solid 3px #ccc;
-        background: #f0f0f0;
-        color: #555;
+     // .docutils > dt {
+    //     padding: 6px;
+    //     display: table;
+    //     margin-bottom: 6px;
+    //     border: none;
+    //     border-left: solid 3px #ccc;
+    //     background: #f0f0f0;
+    //     color: #555;
+    // }
+
+    .seealso .docutils > dt {
+       float: left;
+       clear: left;
+       padding: 0 6px;
+     }
+
+    .seealso .docutils > dd {
+       padding-left: 6em;
     }
-
-
     .nblast {
         padding-bottom: 1em;
     }
