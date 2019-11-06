@@ -35,9 +35,9 @@
         width: map-get(map-get(map-get($layout, document), xl), width);
     }
     .page-content {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
-        padding: 0 12px;
+        padding: 0 5%;
 
         @media (min-width: $md-breakpoint) {
             width: map-get(map-get(map-get($layout, page-content), md), width);
