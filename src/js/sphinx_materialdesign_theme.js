@@ -60,10 +60,14 @@ $(function() {
         $('pre').hover(function() {
             $(this).attr('click-to-copy', 'click to copy...');
         });
-        $('pre').click(function(){
-            var result = copyClipboard(this);
-            if (result) {
-                $(this).attr('click-to-copy', 'copied!');
+        $('pre').click(function(evt){
+            var beforeWidth = 90;
+            var beforeHeight = 28;
+            if (evt.offsetX > (this.offsetWidth - beforeWidth) && evt.offsetY < beforeHeight) {
+              var result = copyClipboard(this);
+              if (result) {
+                  $(this).attr('click-to-copy', 'copied!');
+              }
             }
         });
     }
